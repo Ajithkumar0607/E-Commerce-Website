@@ -1,0 +1,39 @@
+<html>
+    <div>
+        <div>
+            <img src="n1.jpg" id="first-img" width="100px" height="100px">
+        </div>
+    
+        <div>
+            <img src="n2.jpg" id="second-img1" width="100px" height="100px">
+            <img src="n3.webp" id="second-img2" width="100px" height="100px">
+            <img src="n4.webp" id="second-img3" width="100px" height="100px">
+            <img src="n5.jpg" id="second-img4" width="100px" height="100px">
+        </div>
+    </div>
+</html>
+
+<script>
+    var Firstimage = document.getElementById("first-img")
+    var Secondimage1 = document.getElementById("second-img1")
+    var Secondimage2 = document.getElementById("second-img2")
+    var Secondimage3 = document.getElementById("second-img3")
+    var Secondimage4 = document.getElementById("second-img4")
+
+    Secondimage1.onclick = function(){
+        Firstimage.src = Secondimage1.src
+    }   
+
+    Secondimage2.onclick = function(){
+        Firstimage.src = Secondimage2.src
+    }   
+
+    Secondimage3.onclick = function(){
+        Firstimage.src = Secondimage3.src
+    }   
+
+    Secondimage4.onclick = function(){
+        Firstimage.src = Secondimage4.src
+    }   
+
+</script>
